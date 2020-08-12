@@ -21,7 +21,7 @@ export default class Line extends THREE.Object3D {
         this.datUpdate = this.datUpdate.bind(this);
 
         let Params = function(){
-            this.amount = 15;
+            this.amount = 20;
             this.color = 0xffffff;//黄緑C7FF73
             // this.color = "#ffffff";
             this.lineWidthMax = 0.3;
